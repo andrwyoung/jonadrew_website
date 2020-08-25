@@ -3,17 +3,14 @@ layout: default
 ---
 
 <article class="post">
-
-  <img src="{{ site.baseurl }}/images/fulls/{{ page.title }}.jpg"/>
-
-  <h3 style="text-align: center">{{ page.title }}</h3>
-
-  <div class="entry">
-    {{ content }}
+  <div id="picture">
+    <img src="{{ site.baseurl }}/images/fulls/{{ page.title }}.jpg"/>
   </div>
 
-  <div class="date">
-    {{ page.date | date: "%B %e, %Y" }}
+  <div class="entry" >
+    <p style="text-align: center">
+      {{ page.title }} - {{ page.date | date: "%B %e, %Y" }}{{ content }} 
+    </p>
   </div>
 
   {% include disqus.html %}

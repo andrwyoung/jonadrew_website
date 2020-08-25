@@ -8,7 +8,7 @@ layout: default
   <div class="pictures">
     {% for post in site.posts limit:3 offset:offset %}
       <span>
-	        <a href="{{ post.url | prepend: site.baseurl }}">
+	        <a href="{{ post.url | prepend: site.baseurl }}#picture">
 	        	<div>
                 	<img src="/images/cropped/{{ post.title }}.jpg">
                 </div>
