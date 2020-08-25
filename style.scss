@@ -273,10 +273,9 @@ nav {
 
 
 
-
 div.pictures {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 div.pictures span {
     border: 20px solid white;
@@ -284,14 +283,14 @@ div.pictures span {
     text-align: center;
 }
 
+
 /**
  * override column size for mobile
  */
-@media (max-width: 100000px) {
-    pictures .column.column-33, .row .column.column-34 {
-        flex: 0 0 100%;
+@media (max-width: 40.0rem) {
+    div.pictures {
+        display: block;
         max-width: 100%;
-        width: 100%;
     }
 }
 
