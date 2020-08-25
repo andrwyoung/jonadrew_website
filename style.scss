@@ -271,6 +271,38 @@ nav {
   }
 }
 
+
+
+
+div.pictures {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.pictures span {
+    border: 20px solid white;
+    width: 33%;
+    text-align: center;
+}
+
+/**
+ * override column size for mobile
+ */
+@media (max-width: 100000px) {
+    pictures .column.column-33, .row .column.column-34 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
