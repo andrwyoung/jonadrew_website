@@ -10,4 +10,4 @@ Hi! I'm currently a student at UCLA studying math, but am pursuing a career in m
 
 ### Contact:
 
-[jonadrew360@gmail.com](mailto:jonadrew360@gmail.com)
+[jonadrewchong@gmail.com](mailto:jonadrewchong@gmail.com)
