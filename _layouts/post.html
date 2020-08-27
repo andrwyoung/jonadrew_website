@@ -9,8 +9,15 @@ layout: default
 
   <div class="entry" >
     <p style="text-align: center">
-      {{ page.title }} - {{ page.date | date: "%B %e, %Y" }}{{ content }} 
+      {{ page.title }} - {{ page.date | date: "%B %e, %Y" }}
     </p>
+    <p style="text-align: center">
+      <a href="{{ site.baseurl }}/images/hq/{{ page.title }}.png" target="_blank">Higher Quality</a>
+    </p>
+    <p>
+      {{ content }} 
+    </p>
+    
   </div>
 
   {% include disqus.html %}
